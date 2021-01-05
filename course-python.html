@@ -135,6 +135,57 @@
 			<div class="auto-container">
 				<h1>Course Introduction</h1>
 
+				<!-- query form box script -->
+				<div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+					aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header text-center">
+								<h4 class="modal-title w-100 font-weight-bold">Request a Callback for
+									Registration</h4>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<form action="https://send.pageclip.co/nmQHe6i2InSfqjC095vfvuZXd1dmGz6B"
+								class="pageclip-form" method="post">
+								<div class="modal-body mx-3">
+
+
+									<div class="md-form mb-5">
+										<input type="text" name="name" id="defaultForm-name"
+											class="form-control validate" placeholder="Enter Student Name">
+									</div>
+
+									<div class="md-form mb-5">
+										<input type="tel" name="phone number" id="defaultForm-number"
+											class="form-control validate" placeholder="Enter Mobile Number">
+									</div>
+
+									<div class="md-form mb-5">
+										<input type="number" name="student grade" id="defaultForm-grade"
+											class="form-control validate" placeholder="Student Grade (3-12)">
+									</div>
+
+									<div class="md-form mb-5">
+										<input type="email" name="email" id="defaultForm-grade"
+											class="form-control validate" placeholder="Enter Email">
+									</div>
+
+									<div class="md-form mb-5">
+										<input type="text" name="school name" id="defaultForm-grade"
+											class="form-control validate" placeholder="Student School Name">
+									</div>
+
+								</div>
+								<div class="modal-footer d-flex justify-content-center">
+									<button type="submit" class="pageclip-form__submit btn btn-default">Confirm</button>
+								</div>
+							</form>
+						</div>
+
+					</div>
+				</div>
 				<!-- Search Boxed -->
 				<!--<div class="search-boxed">
 				<div class="search-box">
@@ -231,9 +282,7 @@
 																	Tkinter
 
 																</li>
-																<li>Draw graphics using the Python module Turtle
 
-																</li>
 
 															</ul>
 															<h3>Requirements</h3>
@@ -338,20 +387,21 @@
 												<div class="content">
 
 													<div class="cource-review-box">
-														<h4>Stephane Smith</h4>
+														<h4>Shubham Rawat (Class 7)</h4>
 														<div class="rating">
 															<span class="total-rating">4.5</span> <span
 																class="fa fa-star"></span><span
 																class="fa fa-star"></span><span
 																class="fa fa-star"></span><span
 																class="fa fa-star"></span><span
-																class="fa fa-star"></span>&ensp; 256 Reviews
+																class="fa fa-star"></span>&ensp;
 														</div>
-														<div class="text">Phasellus enim magna, varius et commodo ut,
-															ultricies vitae velit. Ut nulla tellus, eleifend euismod
-															pellentesque vel, sagittis vel justo. In libero urna,
-															venenatis sit amet ornare non, suscipit nec risus.</div>
-														<div class="helpful">Was this review helpful?</div>
+														<div class="text">
+															It was my first online course and in programming . It was
+															very excellent experience and i want to thank team graed for
+															the amazing course , as i've shown my apps to my school
+															teachers and i got selected in school computer science team.
+														</div>
 														<ul class="like-option">
 															<li><span class="icon fa fa-thumbs-o-up"></span></li>
 															<li><span class="icon fa fa-thumbs-o-down"></span></li>
@@ -360,20 +410,21 @@
 													</div>
 
 													<div class="cource-review-box">
-														<h4>Anna Sthesia</h4>
+														<h4>Kavya (class 6)</h4>
 														<div class="rating">
 															<span class="total-rating">4.5</span> <span
 																class="fa fa-star"></span><span
 																class="fa fa-star"></span><span
 																class="fa fa-star"></span><span
 																class="fa fa-star"></span><span
-																class="fa fa-star"></span>&ensp; 256 Reviews
+																class="fa fa-star"></span>&ensp;
 														</div>
-														<div class="text">Phasellus enim magna, varius et commodo ut,
-															ultricies vitae velit. Ut nulla tellus, eleifend euismod
-															pellentesque vel, sagittis vel justo. In libero urna,
-															venenatis sit amet ornare non, suscipit nec risus.</div>
-														<div class="helpful">Was this review helpful?</div>
+														<div class="text">Finally finished the course! Learned a lot and
+															excited to learn more once I get the chance. graed has great
+															teacher and their Q&A team is quick to answer most
+															questions. Would definitely recommend!!!
+
+														</div>
 														<ul class="like-option">
 															<li><span class="icon fa fa-thumbs-o-up"></span></li>
 															<li><span class="icon fa fa-thumbs-o-down"></span></li>
@@ -454,8 +505,11 @@
 
 								<!-- <a href="#" class="theme-btn btn-style-three"><span class="txt">Add To Cart <i
 											class="fa fa-angle-right"></i></span></a> -->
-								<a href="#" class="theme-btn btn-style-two"><span class="txt">Buy Now <i
-											class="fa fa-angle-right"></i></span></a>
+								<!-- <a href="#" class="theme-btn btn-style-two"><span class="txt">Buy Now <i
+											class="fa fa-angle-right"></i></span></a> -->
+
+								<a href="" class="theme-btn btn-style-one txt" data-toggle="modal"
+									data-target="#modalLoginForm">Buy Now</a>
 							</div>
 						</div>
 
@@ -507,7 +561,8 @@
 								<div class="footer-column col-lg-7 col-md-6 col-sm-12">
 									<div class="footer-widget logo-widget">
 										<div class="logo">
-											<a href="index.html"><img src="images\graed.png" alt=""></a> </div>
+											<a href="index.html"><img src="images\graed.png" alt=""></a>
+										</div>
 
 										<div class="social-box">
 											<a href="#" class="fa fa-facebook" style="font-size:46px"></a>
